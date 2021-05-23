@@ -1,0 +1,32 @@
+{
+    "name": "sadeq/laravel-queue-kafka",
+    "description": "Kafka Driver For Laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "illuminate/queue": "^8.0",
+        "ext-rdkafka": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "Sadeq\\LaravelQueueKafka\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Sadeq\\LaravelQueueKafka\\KafkaServiceProvider"
+          ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Sadeq Hajizadeh",
+            "email": "sadegh.h.2007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
