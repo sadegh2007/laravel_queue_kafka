@@ -1,5 +1,5 @@
 {
-    "name": "sadeq/laravel-queue-kafka",
+    "name": "sadegh2007/laravel_queue_kafka",
     "description": "Kafka Driver For Laravel",
     "type": "library",
     "require": {

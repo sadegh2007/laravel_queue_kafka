@@ -5,7 +5,7 @@ Kafka Queue driver for Laravel
 You can install this package via composer using this command:
 
 ```
-composer require sadeq/laravel-queue-kafka
+composer require sadegh2007/laravel_queue_kafka
 ```
 
 The package will automatically register itself.
